@@ -7,7 +7,7 @@ var check=[];
 var l=0;
 var arr=[];
 var start=false;
-$(document).dblclick(function(){
+$("#level-title").click(function(){
     if(!start){
         start=true;
       //  $("#level-title").text("Level 1");
@@ -65,7 +65,7 @@ function blink() {
     arr=[];
     check=[];
     start=false;
-    $("#level-title").text("GAME OVER! Double click to restart.");
+    $("#level-title").text("GAME OVER! Click here to start.");
 
 
 
